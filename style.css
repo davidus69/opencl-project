@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'black_jackregular';
+    src: url('blackjack-webfont.eot');
+    src: url('blackjack-webfont.eot?#iefix') format('embedded-opentype'),
+         url('blackjack-webfont.woff2') format('woff2'),
+         url('blackjack-webfont.woff') format('woff'),
+         url('blackjack-webfont.ttf') format('truetype'),
+         url('blackjack-webfont.svg#black_jackregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body
+{
+    font-family: 'black_jackregular', 'Arial Black', Arial;
+}
+h1 , h1 + p
+{
+    
+    text-align: center;
+}
+h2
+{
+    color: blue;
+    text-shadow: 1px 1px 1px red;
+
+}
+#lise
+{
+    width: 100%;
+    height: 100%;
+    display: flex; 
+    position: absolute;
+}
+
+#bule
+{
+
+    background-color:black;
+    width: 10%;
+    height: 100%;
+    min-width: 200px;
+    min-height: 550px;
+    border-radius: 10px;
+
+}
+#lise::after
+{
+    content: "";
+    background-image: url("zidane-font.jpg");
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+div
+{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+
+.tof
+{
+    float: left;
+    border: 3px red double;
+    box-shadow: 8px 8px 8px white;
+}
+
+.next
+{
+    clear: both;
+}
+
+.main
+{
+    padding: 15px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+#tete
+{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#bot
+{
+  
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#bot aside
+{
+   text-align: justify;
+   justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.yes2
+{
+    flex: 2;
+}
+.yes3
+{
+    flex: 2;
+}
+
+@media all and (max-width: 1024px)
+{
+    #bule
+    {
+        display: none;
+    }
+
+    #bot
+    {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        justify-content: left;
+        align-items: left;
+
+    }
+    #bot aside
+    {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        justify-content: left;
+        align-items: left;
+        padding: 20px;
+
+    }
+
+    h1 , h1 + p
+    {
+    
+      text-align: center;
+    }
+}
