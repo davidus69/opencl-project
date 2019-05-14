@@ -22,7 +22,7 @@ h1 , h1 + p
 }
 h2
 {
-    color: blue;
+    color: cadetblue;
     text-shadow: 1px 1px 1px red;
 
 }
@@ -37,7 +37,7 @@ h2
 #bule
 {
 
-    background-color:black;
+    background-color:green;
     width: 10%;
     height: 100%;
     min-width: 200px;
